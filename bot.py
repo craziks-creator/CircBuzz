@@ -8,7 +8,7 @@ from handlers.handlers import msg_handlers
 def main():
     logger.warning("ahh waking up...")
     defaults = Defaults(parse_mode=ParseMode.HTML)
-    updater = Updater(token = "1427727502:AAFBD9STpqKLD9rfSEXrQnB92od1RTR_WII" ,use_context=True ,workers=200)
+    updater = Updater(token = "1559618623:AAGHnNUQPvnh7UFI2S5Nv969o7lfGNCR2C8" ,use_context=True ,workers=200)
     msg_handlers(updater.dispatcher)
     updater.start_polling()
     logger.warning("Ready to rock...")
