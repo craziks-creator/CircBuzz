@@ -9,10 +9,10 @@ class Commands:
     @run_async
     def start(self, update, context):
         update.message.reply_text(
-           text = f"Hello {update.message.chat.first_name}\n_Im a simple cricbuzz bot by @iamarupmandal which let you know the live cricket score and updates from_ `cricbuzz.com` _within the telegram. \n/cricbuzz - to get all available options._",
+           text = f"Hello {update.message.chat.first_name}\n_Im a simple cricbuzz bot by @Sarcastic_00 which let you know the live cricket score and updates from_ `cricbuzz.com` _within the telegram. \n/cricbuzz - to get all available options._",
            reply_markup = InlineKeyboardMarkup([
-             [ InlineKeyboardButton(text=f"Source code",url="https://github.com/arupmandal/CircBuzz"),
-              InlineKeyboardButton(text=f"Me",url="https://t.me/iamarupmandal")],
+             [ InlineKeyboardButton(text=f"news channel",url="https://t.me/daily_news_live"),
+              InlineKeyboardButton(text=f"Me",url="https://t.me/Sarcastic_00")],
               [InlineKeyboardButton(text=f"Take me there",callback_data="take_me_there")]
           ]),
           quote = True,
